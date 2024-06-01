@@ -5,7 +5,7 @@ import Filter from './Filter'
 // import Product from './Products'
 
 function ProductList({products}) {
-  // console.log(products);
+  console.log(products);
     const [searchTerm, setsearchTerm] = useState('')
     const [items, setitems] = useState([])
     // const [selectedProduct, setselectedProduct]?
