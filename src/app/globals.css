@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* color: rgb(var(--foreground-rgb)); */
+  background: #eee;
+}
+
+.item {
+  width: 300px;
+  min-height: 269px;
+  /* text-align: center; */
+  border: 2px solid gainsboro;
+  background: white;
+  padding: 25px;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+}
+.image-cont {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+}
+.image {
+  width: 80%;
+}
+.item h3 {
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.bottom-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin: 10px 0px;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 594;
+}
+.button {
+  padding: 10px;
+  border: 1px solid gainsboro;
+  background: gainsboro;
+  border-radius: 20px;
+  width: 120px;
+}
